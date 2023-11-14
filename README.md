@@ -1,2 +1,3 @@
 # fireentity1.github.io
-Airline Manager game, work in progress
+i'll put something good on here soon i swear
+josj
