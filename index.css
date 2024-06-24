@@ -46,6 +46,7 @@ h1 {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     color: #F2E9E4;
+    background-color: black;
 }
 
 div.photos {
@@ -94,7 +95,8 @@ div.desc{
     color: #F2E9E4;
     padding: 5%;
     text-align: center;
-    margin:auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .bio {
@@ -111,7 +113,6 @@ p {
     background-color: #ccc;
     padding: 3%;
     max-width: 50%;
-    border-radius: 50%;
     margin: auto;
     font-size: 150%;
     border: 2px solid #ccc;
