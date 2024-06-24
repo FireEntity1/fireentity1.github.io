@@ -97,6 +97,12 @@ div.desc{
     margin:auto;
 }
 
+.bio {
+    animation: fadeInAnimationDelay ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
 p {
     animation: fadeInAnimationDelay ease 4s;
     animation-iteration-count: 1;
