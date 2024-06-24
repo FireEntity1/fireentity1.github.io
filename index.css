@@ -70,6 +70,18 @@ div.gallery {
     background-color: #1e1e29;
 }
 
+.expand {
+    animation: hoverAnimBack ease 0.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.expand:hover {
+    animation: hoverAnim ease 0.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
 div.gallery:hover {
     animation: hoverAnim ease 0.3s;
     animation-iteration-count: 1;
@@ -83,6 +95,20 @@ div.desc{
     padding: 5%;
     text-align: center;
     margin:auto;
+}
+
+p {
+    animation: fadeInAnimationDelay ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    text-align: center;
+    background-color: #ccc;
+    padding: 3%;
+    max-width: 50%;
+    border-radius: 50%;
+    margin: auto;
+    font-size: 150%;
+    border: 2px solid #ccc;
 }
 
 img {
