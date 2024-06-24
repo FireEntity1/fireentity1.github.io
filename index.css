@@ -83,6 +83,7 @@ div.gallery {
     animation-fill-mode: forwards;
 }
 
+
 div.gallery:hover {
     animation: hoverAnim ease 0.3s;
     animation-iteration-count: 1;
