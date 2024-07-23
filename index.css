@@ -34,14 +34,20 @@
 html {
     font-family: sono;
     /*background-color: #1e1e29;*/
-    background-image: url("bg.jpg");
+    background-image: url("bg.png");
     background-repeat: repeat;
 }
 
 h1 {
     text-align: center;
     font-size: 300%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     margin-top: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -63,7 +69,7 @@ div.gallery {
     margin: 2%;
     border: 2px solid #ccc;
     float: left;
-    max-width: 25%;
+    max-width: 40%;
     animation: hoverAnimBack ease 0.3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -125,5 +131,4 @@ img {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-
 }
