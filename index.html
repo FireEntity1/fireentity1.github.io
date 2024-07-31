@@ -1,106 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sono">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photography</title>
+    <title>Document</title>
 </head>
+<link rel="stylesheet" href="style.css">
 <body>
-    <h1>FireEntity's Aviation Photography</h1>
-    <div class="bio">
-    <p class="expand">Hi! I'm FireEntity, an ameuteur planespotter. This site contains the best aviation photos I've taken! <br> Enjoy!</p>
-    </div>
-<div class="photos">
-    <div class="gallery">
-    <img src="Photos/KLM-OP.jpg"/> <div class="desc">KLM Orange Pride 777-300</div>
-    </div>
-
-    <div class="gallery">
-    <img src="Photos/KLM-OP2.jpg"/> <div class="desc">KLM Orange Pride 777-300</div>
-    </div>
-
-    <div class="gallery">
-    <img src="Photos/KLM-OP3.jpg"/> <div class="desc">KLM Orange Pride 777-300</div>
-    </div>
+    <h1 id="name">AIRLINE MANAGER <button class="name" onclick="changeName()">Choose Name</button></h1>
+    <div class="button">
+    <button onclick="buyPrompt()">Buy <p class="cost">Aircraft</p></button> 
+    <button onclick="maintain()">Maintain<p id="maintainCost" class="cost"></p></button>
+</div>
+<div class="button upgrades">
+    <button id="jetbridge" onclick="jetbridge()">Buy Jetbridge Upgrade<p class="cost">$25,000,000</p></button>
+    <button id="premium" onclick="premium()">Buy Premium Economy<p class="cost">$10,000,000</p></button>
+    <button id="business" onclick="business()">Buy Business Class<p class="cost">$50,000,000</p></button>
+    <button id="first" onclick="first()">Buy First Class <p class="cost">$80,000,000</p></button>
+    <button id="airport" onclick="airport()">Unlock New Airport <p class="cost" id="airportcost"></p></button>
+</div>
+<div class="button upgrades">
+    <button id="booking" onclick="bookingSys()">Buy Better Booking System<p class="cost">$50,000,000</p></button>
+    <button id="alliance" onclick="alliance()">Join Alliance<p class="cost">$250,000,000</p></button>
+</div>
+<div class="inventory">
+    <b class="money"><p id="money"></p></b>
+    <p><b>Aircraft Inventory</b></p>
+    <p id="q400"></p>
+    <p id="a320"></p>
+    <p id="a350"></p>
+    <p id="747"></p>
 </div>
 
-<div class="photos">
-    <div class="gallery">
-    <img src="Photos/WJ737.jpg"/> <div class="desc">WestJet 737-700</div>
-    </div>
-
-    <div class="gallery">
-    <img src="Photos/WJ738.jpg"/> <div class="desc">WestJet 737-800</div>
-    </div>
-
-    <div class="gallery">
-    <img src="Photos/KLM772.jpg"/> <div class="desc">WestJet 737-800</div>
-    </div>
+<div class="maintenance">
+    <p><b>Fleet Maintenance Multiplier</b><p id="multDisplay"></p></p>
+</div>
+<div class="multipliers">
+    <b>Upgrade Multiplier: </b> <p id="mult"></p>
+    <b>Time Multiplier: </b> <p id="time"></p>
 </div>
 
-<div class="photos">
-    <div class="gallery">
-    <img src="Photos/E-N26210.jpg"/> <div class="desc">United Airlines 737-800</div>
-    </div>
-
-    <div class="gallery">
-    <img src="Photos/WJ 737.jpg"/> <div class="desc">WestJet 737-800</div>
-    </div>
-
-    <div class="gallery">
-    <img src="Photos/AC A320.jpg"/> <div class="desc">Air Canada A320-200</div>
-    </div>
+<div class="codelist">
+    <p><b>AIRCRAFT CODES:</b> <br>
+    DHC Dash 8 - Q400 - <b>$27,000,000</b><br>
+    Airbus A320ceo - A320 - <b>$100,000,000</b><br>
+    Airbus A350-900 - A350 - <b>$366,000,000</b><br>
+    Boeing 747-8i - B747 - <b>$418,000,000</b></p>
 </div>
 
-<div class="photos">
-    <div class="gallery">
-    <img src="Photos/KLM 77W.jpg"/> <div class="desc">KLM 777-300ER</div>
-    </div>
+<div class="income"><p><b>Current Income:</b></p><p id="income"></p></div>
 
-    <div class="gallery">
-    <img src="Photos/AC 789-2.png"/> <div class="desc">Air Canada 787-9</div>
-    </div>
 
-    <div class="gallery">
-    <img src="Photos/FLE 738.jpg"/> <div class="desc">Flair 737-800</div>
-    </div>
-</div>
-
-<div class="photos">
-
-</div>
-
-<div class="photos">
-    <div class="gallery">
-
-    </div>
-</div>
-
-<div class="photos">
-
-    </div>
-</div>
-
-<div class="bio">
-    <p class="expand"><b>Contacts:</b><br>
-        Instagram: aaravk28 <br>
-        Email: fire.entity2@gmail.com <br>
-    </p>
-</div>
-
-<div class="bio">
-    <p class="expand"><b>Camera Information:</b><br>
-        Canon EOS Rebel T7<br>
-        EFS18-55 lens<br>
-        <br>
-        <b>Settings</b>
-        <br>
-        100-200 ISO <br>
-        1/500 Shutter Speed
-    </p>
-</div>
 
 </body>
 </html>
+<script src="index.js"></script>

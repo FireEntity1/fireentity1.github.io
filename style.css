@@ -1,0 +1,98 @@
+html {
+    font-family: 'Courier New', monospace;
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 350%;
+}
+
+button {
+    width: 15%;
+    font-family: 'Courier New', monospace;
+    word-wrap:break-word;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+    background-color: white;
+    display:inline-block;
+    height: 25%;
+}
+
+.button {
+    text-align: center;
+}
+
+.inventory {
+    float: right;
+    font-size: x-large;
+    margin-left: 5%;
+    text-align: right;
+    margin-right: 5%
+}
+
+.maintenance {
+    float: left;
+    font-size: xx-large;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.codelist {
+    margin-top: 10ch;
+    display:contents left;
+    text-align: left;
+    margin-left: 5%;
+    font-size:large;
+}
+
+.income {
+    font-size: xx-large;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: #0FA3B1;
+}
+
+.name {
+    background-color: black;
+    color: white;
+    font-size: small;
+    width: 5%;
+    height: 3%;
+}
+.upgrades {
+    margin: 3%;
+    font-size: large;
+}
+
+.multipliers {
+    margin-top:15ch;
+    margin-left: 5%;
+    justify-self: left;
+    font-size: xx-large;
+}
+
+.cost {
+    font-size: medium;
+}
+
+.money {
+    font-size: 200%;
+    color: #31D843;
+}
+
+#multDisplay {
+    color: #31D843;
+}
+
+#mult {
+    color: #31D843;
+}
+
+#time {
+    color: #31D843;
+}
