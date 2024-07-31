@@ -29,7 +29,7 @@ const a320_cost = 100000000;
 const a350_cost = 366000000;
 const b747_cost = 418000000;
 
-var money = 2500000000;
+var money = 25000000;
 
 window.onload = function() {
     setTimeout(startLimitedEvent, 7000)
