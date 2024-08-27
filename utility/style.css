@@ -1,0 +1,55 @@
+html {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 500%;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.calcIn {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    justify-self: center;
+}
+
+button {
+    font-size: xx-large;
+    margin: 2%;
+    padding: 2%;
+    position: static;
+    border-radius: 10%;
+}
+
+.calc {
+    margin-top: 10%;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .buttons {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150%;
+    display:block;
+  }
+
+  .calcIn:hover{
+    border-width:5px;
+  }
+
+  .notes {
+   width:100%;
+   font-size:x-large;
+   min-height:200%;
+   height:500%;
+   background-color: black;
+   color:white;
+  }
+

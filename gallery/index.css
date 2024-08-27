@@ -1,0 +1,134 @@
+@keyframes fadeInAnimation {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes fadeInAnimationDelay {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes hoverAnim {
+    0% {
+    }
+    100% {
+        border-width: 12px;
+    }
+}
+@keyframes hoverAnimBack {
+    0% {
+        border-width: 12px;
+    }
+
+    100% {
+        border-width: thin;
+    }
+}
+
+html {
+    font-family: sono;
+    /*background-color: #1e1e29;*/
+    background-image: url("bg.png");
+    background-repeat: repeat;
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    color: #F2E9E4;
+    background-color: black;
+}
+
+div.photos {
+    display:flex;
+    justify-content: center;
+    animation: fadeInAnimationDelay ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }
+
+div.gallery {
+    border-style:outset;
+    border-width: thin;
+    margin: 2%;
+    border: 2px solid #ccc;
+    float: left;
+    max-width: 40%;
+    animation: hoverAnimBack ease 0.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    columns: 29% 3;
+    background-color: #1e1e29;
+}
+
+.expand {
+    animation: hoverAnimBack ease 0.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.expand:hover {
+    animation: hoverAnim ease 0.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+div.gallery:hover {
+    animation: hoverAnim ease 0.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+div.gallery
+
+div.desc{
+    color: #F2E9E4;
+    padding: 5%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.bio {
+    animation: fadeInAnimationDelay ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+p {
+    animation: fadeInAnimationDelay ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    text-align: center;
+    background-color: #ccc;
+    padding: 3%;
+    max-width: 50%;
+    margin: auto;
+    font-size: 150%;
+    border: 2px solid #ccc;
+}
+
+img {
+
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
